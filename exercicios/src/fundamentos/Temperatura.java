@@ -21,6 +21,9 @@ public class Temperatura {
 		
 		
 		//Comentario Teste Github
+		/*
+		 * Teste Github ( De Melo Seu Bosta, não sabe usar Github)
+		 */
 		
 	}
 
