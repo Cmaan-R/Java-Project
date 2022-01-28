@@ -23,5 +23,5 @@ public class Inferencia {
 		f = "bora ver" ;
 		System.out.println(f);
 	}
-
+	//Comentario Teste Github
 }

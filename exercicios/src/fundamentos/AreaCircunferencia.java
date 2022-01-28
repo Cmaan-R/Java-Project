@@ -14,6 +14,8 @@ public class AreaCircunferencia {
 		area = pi * raio * raio;
 		System.out.println("Area = " + area);
 		
+		//Comentario Teste Github
+		
 	}
 
 }
