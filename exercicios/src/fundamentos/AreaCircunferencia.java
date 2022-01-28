@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class AreaCircunferencia {
+public class AreaCircunferencia Teste {
 	
 	public static void main(String[] args) {
 		double raio = 3.4;
