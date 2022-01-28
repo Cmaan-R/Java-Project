@@ -20,10 +20,6 @@ public class Temperatura {
 		
 		
 		
-		//Comentario Teste Github
-		/*
-		 * Teste Github ( Atualização)
-		 */
 		
 	}
 
