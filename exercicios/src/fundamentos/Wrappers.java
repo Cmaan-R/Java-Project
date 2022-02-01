@@ -8,7 +8,7 @@ public class Wrappers {
 		Short s = 1000;
 
 		// Integer.parseInt (entrada.next());
-		Integer i = 10000; // int
+		Integer i = 10000; // int	
 		Long l = 100000L;
 
 		System.out.println(b.byteValue());
