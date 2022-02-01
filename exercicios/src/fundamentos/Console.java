@@ -32,7 +32,6 @@ public class Console {
 		System.out.printf("%s %s Tem %s Anos!", nome , sobrenome, idade);
 		
 		entrada.close();
-					
 	}
 
 }
