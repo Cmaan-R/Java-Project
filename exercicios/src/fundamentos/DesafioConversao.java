@@ -12,21 +12,21 @@ public class DesafioConversao {
 				String nome = JOptionPane.showInputDialog("Digite seu nome:\n");
 				
 				System.out.println("Digite seu primeiro salário:");
-				int salario1 = entrada.nextInt();
+				String salario1 = entrada.next().replace(",", ".");
 				
 				System.out.println("Digite seu segundo salário:");
-				int salario2 = entrada.nextInt();
+				String salario2 = entrada.next().replace(",", ".");
 				
 				System.out.println("Digite seu terceiro salário:");
-				int salario3 = entrada.nextInt();
+				String salario3 = entrada.next().replace(",", ".");
 				
-				float n1 = salario1;
-				float n2= salario2;
-				float n3= salario3;
+				float n1 = Float.parseFloat(salario1);
+				float n2 = Float.parseFloat(salario2);
+				float n3 = Float.parseFloat(salario3);
 				
-				float soma = n1 + n2+ n3;
+				float media = (n1 + n2+ n3) /2;
 						
-				System.out.println(nome + " a média dos seus salários é: " + soma);
+				System.out.println(nome + " a média dos seus salários é: " + media);
 				
 		entrada.close();
 				

@@ -14,11 +14,11 @@ public class DesafioConversaoSegundaForma {
 		String n2 = JOptionPane.showInputDialog("Digite seu segundo salário");
 		String n3 = JOptionPane.showInputDialog("Digite seu terceiro salário");
 		
-		float valor1 = Float.parseFloat(n1);
-		float valor2= Float.parseFloat(n2);
-		float valor3= Float.parseFloat(n3);
+		double valor1 = Double.parseDouble(n1);
+		double valor2= Double.parseDouble(n2);
+		double valor3= Double.parseDouble(n3);
 		
-		float media= valor1 + valor2 + valor3;
+		double media= (valor1 + valor2 + valor3) /2;
 		
 		System.out.println(nome + " a média do seu salário é: " + media);
 		
