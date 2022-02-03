@@ -1,15 +1,26 @@
 package fundamentos;
 
-import org.graalvm.compiler.core.match.MatchableNode;
 
 public class DesafioAritmedicos {
 
 		public static void main(String[] args) {
 			
-			//int a = (int) Math.pow(b, 2);
+		double numA = Math.pow(6 * ( 3 + 2), 2);
+		double denA = 3 * 2;
+		
+		double numB = ( 1 - 5) *  (2 - 7);
+		double denB = 2;
+		
+		double superiorA= numA / denA;
+		double superiorB= Math.pow(numB / denB, 2);
+		
+		double superior = Math.pow(superiorA - superiorB, 3);
+		double inferior = Math.pow(10, 3);
+		
+		double R = superior / inferior;
+				
+		System.out.println("O resultado desta operação é: " + R);
 			
-			
-			//System.out.println(a);
 			
 		}
 }
