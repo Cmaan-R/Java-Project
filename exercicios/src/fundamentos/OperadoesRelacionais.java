@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class operadoesRelacionais {
+public class OperadoesRelacionais {
 	
 		public static void main(String[] args) {
 			
