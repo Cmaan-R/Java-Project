@@ -19,6 +19,8 @@ public class ConversaoStringNumero {
 		System.out.println(numero1 + numero2);
 		System.out.println(soma);
 
+		
+		// teste git
 	}
 
 }

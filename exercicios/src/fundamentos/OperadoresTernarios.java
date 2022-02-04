@@ -18,7 +18,9 @@ public class OperadoresTernarios {
 		String resultado = temDesconto ? "Sim." : "Não";
 		
 		System.out.println("Tem Desconto? " + resultado);	
-			
+			 
+		
+		//teste git
 			
 			
 			
