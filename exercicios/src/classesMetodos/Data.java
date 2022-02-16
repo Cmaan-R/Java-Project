@@ -6,6 +6,19 @@ public class Data {
 	int mes;
 	int ano;
 	
+	Data () {
+		dia = 01;
+		mes = 01;
+		ano = 1970;
+		
+	}
+	
+	Data (int diaInicial, int mesInicial, int anoInicial) {
+		dia = diaInicial;
+		mes = mesInicial;
+		ano = anoInicial;
+		
+	}
 	
 	String dataFormatada() {
 		
@@ -14,7 +27,7 @@ public class Data {
 	}
 	
 	void imprimirData () {
-		System.out.printf("\nA data de hoje é : %d/%d/%d" , dia, mes, ano);
+		System.out.printf("\nA data de hoje é : %d/%d/%d\n" , dia, mes, ano);
 		
 		
 	}
