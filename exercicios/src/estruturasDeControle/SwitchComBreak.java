@@ -42,7 +42,7 @@ public class SwitchComBreak {
 		
 		System.out.println("Conceito é " + conceito);
 		
-		entrada.close();
+		entrada.close();	
 	}
 
 }
