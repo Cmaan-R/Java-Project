@@ -33,10 +33,7 @@ public class SwitchComBreak {
 			break;
 		// O Default pode ser colocado em qualquer posição , inclusive no meio do Switch.
 		default:
-			conceito = "não informado";
-		
-		//Teste Github
-		
+			conceito = "não informado";		
 		 
 		}
 		
