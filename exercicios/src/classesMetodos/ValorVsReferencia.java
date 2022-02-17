@@ -30,7 +30,11 @@ public class ValorVsReferencia {
 		
 		System.out.println(d1.dataFormatada());
 		System.out.println(d2.dataFormatada());
-	
+		System.out.println();
+		
+		int c = 5; // Não será alterar o valor
+		alterarPrimitivo(c);
+		System.out.println(c);
 		
 	}
 	
@@ -42,4 +46,9 @@ public class ValorVsReferencia {
 		
 	}
 
+	static void alterarPrimitivo(int a) {
+		a++;
+		
+		
+	}
 }
