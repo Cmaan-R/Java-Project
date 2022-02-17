@@ -8,8 +8,8 @@ public class Comida {
 	
 	
 	Comida (String nome , double pesoC) {
-		nomeComida = nome;
-		pesoComida = pesoC;
+		this.nomeComida = nome;
+		this.pesoComida = pesoC;
 		
 	}
 }
