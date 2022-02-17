@@ -6,32 +6,31 @@ public class Data {
 	int mes;
 	int ano;
 	
+	
 	Data () {
-		dia = 01;
-		mes = 01;
-		ano = 1970;
+		//dia = 01;
+		//mes = 01;
+		//ano = 1970;
+		
+		this (1, 1, 1970);
 		
 	}
 	
-	Data (int diaInicial, int mesInicial, int anoInicial) {
-		dia = diaInicial;
-		mes = mesInicial;
-		ano = anoInicial;
+	Data (int dia, int mes, int ano) {
+		this.dia = dia; //THIS está fazendo referência ao PUBLIC CLASS DATA
+		this.mes = mes;
+		this.ano = ano;  
 		
 	}
 	
 	String dataFormatada() {
 		
-		return String.format("\nA data de hoje é : %d/%d/%d" , dia, mes, ano);
+		final String formato = "\n A data de hoje é : %d/%d/%d";
+		return String.format(formato, this.dia, mes, ano);
 								
 	}
 	
-	void imprimirData () {
-		System.out.printf("\nA data de hoje é : %d/%d/%d\n" , dia, mes, ano);
-		
-		
-	//GITHUB
-		
-		
+	void imprimirData () {	
+		System.out.printf(this.dataFormatada());
 	}
 }

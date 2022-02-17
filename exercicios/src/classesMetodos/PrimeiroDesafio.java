@@ -14,7 +14,7 @@ public class PrimeiroDesafio {
 		
 		System.out.println(p.valor);
 		
-		System.out.println(b);
+		System.out.println(b); 
 		
 		
 		
