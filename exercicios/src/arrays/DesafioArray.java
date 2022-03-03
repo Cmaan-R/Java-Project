@@ -30,11 +30,6 @@ public class DesafioArray {
 	
 	entrada.close();
 	
-	//Teste Github
-	
-	//Teste
-	
-	
 	
 	
 	}
