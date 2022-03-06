@@ -51,7 +51,6 @@ public class ConjuntoBagunçado {
 		conjunto.clear();
 		
 		System.out.println(conjunto);
-		
 				
 		
 		
