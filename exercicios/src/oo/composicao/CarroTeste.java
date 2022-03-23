@@ -25,7 +25,7 @@ public class CarroTeste {
 		
 		//Faltou Encapsulamento!!!
 		// c1.motor.fatorInjecao = -30;
-		//Teste Github
+		
 		
 		
 		System.out.println(c1.motor.giros());
