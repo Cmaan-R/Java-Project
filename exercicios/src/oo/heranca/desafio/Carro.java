@@ -11,12 +11,12 @@ public class Carro {
 		return 0 ;
 	}
 	
-	int freiar () {
-		if ( velocidadeAt <= 150) {
+	void freiar () {
+		if ( velocidadeAt >= 5) {
 			velocidadeAt -= 5;
+	} else {
+		velocidadeAt = 0;
 		}
-		
-		return  0;
 	}
 	
 }

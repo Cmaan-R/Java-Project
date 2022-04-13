@@ -23,6 +23,15 @@ public class CarroTeste {
 	System.out.println("A Velocidade Atual da " + bmw.nome + " é de " + bmw.velocidadeAt +"km");
 	System.out.println("A Velocidade Atual do " + civic.nome + " é de " + civic.velocidadeAt +"km");
 	
+	bmw.freiar();
+	civic.freiar();
+	bmw.freiar();
+	civic.freiar();
+	bmw.freiar();
+	civic.freiar();
+	
+	System.out.println("A Velocidade Atual da " + bmw.nome + " é de " + bmw.velocidadeAt +"km");
+	System.out.println("A Velocidade Atual do " + civic.nome + " é de " + civic.velocidadeAt +"km");
 	
 
 	}

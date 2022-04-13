@@ -3,11 +3,12 @@ package oo.heranca.desafio;
 public class Civic extends Carro {
 	String nome = "Civic Standart";
 	
-	int freiar () {
-		if ( velocidadeAt < 150) {
+	void freiar () {
+		if ( velocidadeAt >= 5) {
 			velocidadeAt -= 15;
+	} else {
+		velocidadeAt = 0;
 		}
-		
-		return  0;
 	}
+	
 }
