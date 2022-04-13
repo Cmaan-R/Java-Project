@@ -4,15 +4,14 @@ public class Carro {
 	String nome;
 	int velocidadeAt = 0;
 	
-	int acelerar () {
+	void acelerar () {
 		if ( velocidadeAt >= 0) {
 			velocidadeAt += 5;
 		}
-		return 0 ;
 	}
 	
 	void freiar () {
-		if ( velocidadeAt >= 5) {
+		if ( velocidadeAt > 0) {
 			velocidadeAt -= 5;
 	} else {
 		velocidadeAt = 0;
