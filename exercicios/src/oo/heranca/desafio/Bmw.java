@@ -17,24 +17,9 @@ public class Bmw extends Carro {
 }
 		
 	
-//	@Override Foi Declaro no valor DELTA ACIMA 
+//	@Override Foi Declarado no valor DELTA ACIMA 
 //	void acelerar() {
 //		velocidadeAt += 15;
 //	}
-//	
-//}
-	
-	
-	
-	
-//	String nome = "Bmw 320i";
-//
-//	int acelerar () {
-//		if ( velocidadeAt >= 0) {
-//			velocidadeAt += 15;
-//		}
-//		return 0 ;
-//	}
-//
 //	
 //}
