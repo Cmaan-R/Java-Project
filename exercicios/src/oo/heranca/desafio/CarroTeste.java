@@ -3,10 +3,10 @@ package oo.heranca.desafio;
 public class CarroTeste {
 	public static void main(String[] args) {
 	
-	Bmw bmw = new Bmw ();
+	Bmw bmw = new Bmw (250);
 	System.out.println(bmw.velocidadeAt);
 
-	Civic civic = new Civic ();
+	Civic civic = new Civic (200);
 	System.out.println(civic.velocidadeAt);
 	
 	bmw.acelerar();

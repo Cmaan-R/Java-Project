@@ -2,6 +2,13 @@ package oo.heranca.desafio;
 
 public class Bmw extends Carro {
 	
+	String nome = "Bmw 320i";
+	
+	Bmw (int x ) {
+		super (x);
+	}
+		
+	
 	@Override
 	void acelerar() {
 		velocidadeAt += 15;
