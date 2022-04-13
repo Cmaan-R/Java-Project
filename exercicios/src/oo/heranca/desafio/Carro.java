@@ -1,7 +1,7 @@
 package oo.heranca.desafio;
 
 public class Carro {
-	
+	String nome;
 	int velocidadeAt = 0;
 	
 	int acelerar () {
@@ -19,4 +19,8 @@ public class Carro {
 		}
 	}
 	
+//	public String toString () {
+//		return "A Velocidade Atual é de"+ this.nome +  velocidadeAt + "km/h"; 
+//	}
+//	
 }
