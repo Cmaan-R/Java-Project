@@ -24,7 +24,7 @@ public class Pessoa {
 	}
 	
 	public String getNomeCompleto () {
-		return getNome() + " " + getSobrenome();
+		return getNome() + " " + getSobrenome();	
 	}
 
 	//Getter 
