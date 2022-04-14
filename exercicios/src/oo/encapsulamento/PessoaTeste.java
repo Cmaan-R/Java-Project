@@ -5,10 +5,11 @@ public class PessoaTeste {
 	public static void main(String[] args) {
 		
 	
-	Pessoa p1 = new Pessoa();
-	p1.idade = -30; //Alterar o valor da variável
+	Pessoa p1 = new Pessoa(-30);
+	p1.alterarIdade(-98); // Alterando
 	
-	System.out.println(p1.idade);	//Lendo o valor da variável
+	
+	System.out.println("A sua idade é: " + p1.lerIdade() + " anos");	//Lendo o valor da variável
 
 	}
 

@@ -1,6 +1,24 @@
 package oo.encapsulamento;
 
 public class Pessoa {
-	public int idade;
+	
+	private int idade;
+	
+	public Pessoa ( int idade) {
+		alterarIdade(idade);
+	}
+	
+	public void alterarIdade (int novaIdade) {
+		novaIdade = Math.abs(novaIdade);
+		if (novaIdade >= 0 && novaIdade <= 120) {
+			this.idade = novaIdade;
+		}
+		
+	}
 
+	public int lerIdade() {
+		return idade;
+	}
+	
+	
 }
