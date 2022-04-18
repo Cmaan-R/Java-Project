@@ -5,7 +5,7 @@ public class Carro {
 	protected final int VELOCIDADE_MAXIMA;
 	protected String nome;
 	public int velocidadeAt = 0;
-	protected int delta = 5 ;
+	private int delta = 5 ;
 	
 	protected Carro(int velocidadeMaxima) {
 		VELOCIDADE_MAXIMA = velocidadeMaxima;
@@ -26,6 +26,14 @@ public class Carro {
 	} else {
 		velocidadeAt = 0;
 		}
+	}
+	
+	public int getDelta () {
+		return delta;
+	}
+	
+	public void setDelta (int delta) {
+		this.delta = delta;
 	}
 	
 //	public String toString () {

@@ -10,15 +10,15 @@ public class Bmw extends Carro implements Esportivo , Luxo{
 	
 	public Bmw (int velocidadeMaxima) {
 		super(velocidadeMaxima);
-		delta = 15;
+		setDelta(15);
 	}
 	
 	public void ligarTurbo () {
-		delta = 35;
+		setDelta(15);
 	}
 	
 	public void desligarTurbo() {
-		delta = 15;
+		setDelta(15);
 	}
 	
 	public void ligarAr() {
