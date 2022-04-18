@@ -12,6 +12,7 @@ public abstract class Comida {
 		return peso;
 	}
 
+	//teste
 	public void setPeso (double peso) {
 		if ( peso >= 0) {
 			this.peso = peso;
