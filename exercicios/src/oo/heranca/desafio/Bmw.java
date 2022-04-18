@@ -1,6 +1,6 @@
 package oo.heranca.desafio;
 
-public class Bmw extends Carro {
+public class Bmw extends Carro implements Esportivo , Luxo{
 	
 	public String nome = "Bmw 320i";
 
@@ -13,7 +13,26 @@ public class Bmw extends Carro {
 		delta = 15;
 	}
 	
+	public void ligarTurbo () {
+		delta = 35;
+	}
+	
+	public void desligarTurbo() {
+		delta = 15;
+	}
+	
+	public void ligarAr() {
+		
+	}
+	
+	public void desligarAr () {
+		
+	}
+	
 }
+
+
+	
 		
 	
 //	@Override Foi Declarado no valor DELTA ACIMA 
