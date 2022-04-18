@@ -11,14 +11,14 @@ public class Jantar {
 		
 		System.out.println("Estou pesando " + convidado.getPeso() + "Kg");
 		
-		convidado.comerA(ingrediente1);
-		convidado.comerF(ingrediente2);
+		convidado.comer(ingrediente1);
+		convidado.comer(ingrediente2);
 		
 		System.out.println("Estou pesando " + convidado.getPeso() + "Kg");
 
 		
 		Sorvete ingrediente3 = new Sorvete (0.50);
-		convidado.comerS(ingrediente3);
+		convidado.comer(ingrediente3);
 		
 		System.out.println("Estou pesando " + convidado.getPeso() + "Kg");
 
