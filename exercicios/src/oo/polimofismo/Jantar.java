@@ -8,6 +8,8 @@ public class Jantar {
 		
 		Arroz ingrediente1 =  new Arroz(0.150);
 		Feijao ingrediente2 =  new Feijao(0.180);
+		Comida ingrediente4 = new Feijao(0.50);
+		
 		
 		System.out.println("Estou pesando " + convidado.getPeso() + "Kg");
 		
@@ -22,6 +24,9 @@ public class Jantar {
 		
 		System.out.println("Estou pesando " + convidado.getPeso() + "Kg");
 
+		convidado.comer(ingrediente4);
+
+		System.out.println("Estou pesando " + convidado.getPeso() + "Kg");
 		
 	}
 
