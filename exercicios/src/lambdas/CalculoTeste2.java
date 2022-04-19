@@ -7,6 +7,8 @@ public class CalculoTeste2 {
 		
 		System.out.println(soma.executar(2, 3));
 		
+		soma = (x , y) -> x * y; 
+		System.out.println(soma.executar(2, 3));
 		
 	}
 
