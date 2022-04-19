@@ -9,6 +9,4 @@ public interface Luxo {
 		return 1;
 	}
 	
-	
-
 }
