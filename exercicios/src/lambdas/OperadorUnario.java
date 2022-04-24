@@ -22,9 +22,9 @@ public class OperadorUnario {
 				.compose(vezesDois) // Compose funciona debaixo para cima
 				.compose(maisDois)
 				.apply(0);
+		
 		System.out.println(resultado2);
-		
-		
+				
 	}
 
 }
