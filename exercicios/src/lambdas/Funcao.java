@@ -18,7 +18,10 @@ public class Funcao {
 				valor -> valor + "!!!";				
 		
 		String resultadoFinal =
-				parOuImpar.andThen(oResultadoE).andThen(empolgado).apply(33);
+				parOuImpar
+				.andThen(oResultadoE)
+				.andThen(empolgado)
+				.apply(33);
 		
 		
 		System.out.println(resultadoFinal);
