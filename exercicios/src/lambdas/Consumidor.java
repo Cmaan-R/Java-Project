@@ -24,10 +24,7 @@ public class Consumidor {
 			
 			produtos.forEach(imprimirNome);
 			produtos.forEach(p -> System.out.println(p.preco));
-			produtos.forEach(System.out::println);
-			
-			//Teste Github
-			
+			produtos.forEach(System.out::println);	
 			
 		}
 }
