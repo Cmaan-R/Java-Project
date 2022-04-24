@@ -32,6 +32,7 @@ public class Funcao {
 		System.out.println(parOuImpar.apply(32));
 		System.out.println(resultadoFinal);
 		System.out.println(resultadoFinal2);
+		
 	}
 
 }
