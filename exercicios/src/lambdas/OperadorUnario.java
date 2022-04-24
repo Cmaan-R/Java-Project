@@ -18,6 +18,11 @@ public class OperadorUnario {
 		
 		System.out.println(resultadoFinal);
 		
+		int resultado2 = aoQuadrado
+				.compose(vezesDois) // Compose funciona debaixo para cima
+				.compose(maisDois)
+				.apply(0);
+		System.out.println(resultado2);
 		
 		
 	}
