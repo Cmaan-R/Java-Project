@@ -13,9 +13,5 @@ public class Fornecedor {
 				
 				
 			System.out.println(umaLista.get());
-		
-		
-			
-			
 		}
 }
