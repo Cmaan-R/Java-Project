@@ -9,6 +9,8 @@ public class Desafio {
 		System.out.println(p.nome);
 		
 		
+		System.out.println(p.preco);
+		
 //		1. A partir do produto calcular o preco real (com desconto)
 //		2. Imposto Municipal : >= 2500 (8,5%)/ < 2500 (Isento)
 //		3. Frete: >= 300 (100) / <3000 (50)
