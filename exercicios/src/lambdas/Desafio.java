@@ -33,7 +33,7 @@ public class Desafio {
 				.andThen(formatar)
 				.apply(p);
 		
-		System.out.println("O preço final é" + preco + "");
+		System.out.println("O preço final é" + preco);
 	
 	}
 
