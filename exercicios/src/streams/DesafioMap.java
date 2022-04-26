@@ -16,31 +16,11 @@ public class DesafioMap {
 		
 		Function<String, Integer> reverter = r ->  Integer.parseInt(r);
 		
-		
-		
 		nums.stream()
 		.map(Integer::toBinaryString)
 		.map(inverter)
 		.map(reverter)
 		.forEach(System.out::println);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-			
-		//String stream = Integer.toBinaryString(nums);
-		
-		
-		
-//		1. Número para string binária... 6=> "110";
-//		2. Inverter a String... "110" => "011";
-//		3. Converter de volta para inteiro => "011" => 3;
-		//Integer.
 	}
 
 }
