@@ -14,18 +14,20 @@ public class Map {
 		List<String> marcas = Arrays.asList("BMW " , "Audi " , "Honda\n");
 		marcas.stream().map(m -> m.toUpperCase()).forEach(print);
 		
-		UnaryOperator<String> maiuscula = n -> n.toUpperCase();
+		//UnaryOperator<String> maiuscula = n -> n.toUpperCase(); Está sendo realizada pela classe UTILITARIOS
 		UnaryOperator<String> primeiraLetra = n -> n.charAt(0) + "";
-		UnaryOperator<String> grito = n -> n + "!!! ";
+		//UnaryOperator<String> grito = n -> n + "!!! ";
 		
-		System.out.println(maiuscula.andThen(primeiraLetra).andThen(grito).apply("BMW\n"));
+		System.out.println(Utilitarios.maiuscula.andThen(primeiraLetra).andThen(Utilitarios::grito).apply("BM\n"));
 		
 		System.out.println("Usando Composição!!!");
 		marcas.stream()
-		.map(maiuscula)
+		.map(Utilitarios.maiuscula)
 		.map(primeiraLetra)
-		.map(grito)
+		.map(Utilitarios::grito)
 		.forEach(print);
+		
+		
 		
 		
 		
