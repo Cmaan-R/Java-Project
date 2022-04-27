@@ -12,7 +12,7 @@ public class Reduce1 {
 		
 		BinaryOperator<Integer> soma = (ac , n) -> ac + n; //Ac = acumulador
 		
-		Integer total = nums.stream().reduce(soma).get();
+		Integer total = nums.parallelStream().reduce(soma).get();
 		
 		System.out.println(total);
 		
