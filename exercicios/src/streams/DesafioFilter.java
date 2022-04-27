@@ -16,8 +16,6 @@ public class DesafioFilter {
 		
 		List<Trabalhador> trabalhadores = Arrays.asList(t1 , t2 , t3 , t4);
 		Predicate<Trabalhador> fazParte = t -> t.fazParte;
-		
-		
 		Function<Trabalhador, String> bemVindo =
 				t -> "Bem vindo " 
 						+ t.nome
