@@ -28,8 +28,5 @@ public class Filter {
 			.map(saudacao)
 			.forEach(System.out::println);
 			
-			
-			
-			
 		}
 }
