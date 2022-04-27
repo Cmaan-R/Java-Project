@@ -27,7 +27,5 @@ public class DesafioFilter {
 		.filter(fazParte)
 		.map(bemVindo)
 		.forEach(System.out::println);
-		
-		//Catraca
 	}
 }
