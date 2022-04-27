@@ -11,7 +11,7 @@ public class DesafioFilter {
 		
 		Trabalhador t1 = new Trabalhador ("Pedro" , false, "Cliente" );
 		Trabalhador t2 = new Trabalhador ("Patrícia", true , "Excelente");
-		Trabalhador t3 = new Trabalhador ("Vidal" ,  true, "Médio");
+		Trabalhador t3 = new Trabalhador ("Vidal" ,  false, "Cliente");
 		Trabalhador t4 = new Trabalhador ("Daniel" ,  true, "Muito Bom");
 		
 		List<Trabalhador> trabalhadores = Arrays.asList(t1 , t2 , t3 , t4);
@@ -27,5 +27,7 @@ public class DesafioFilter {
 		.filter(fazParte)
 		.map(bemVindo)
 		.forEach(System.out::println);
+		
+		//Catraca
 	}
 }
