@@ -21,7 +21,6 @@ public class DesafioMap {
 		.map(reverter)
 		.forEach(System.out::println);
 		
-		//Teste Github
 	}
 
 }
