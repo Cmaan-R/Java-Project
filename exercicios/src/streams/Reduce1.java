@@ -17,8 +17,14 @@ public class Reduce1 {
 		System.out.println(total);
 		
 		Integer total2 = nums.stream().reduce(100, soma);	
-		
 		System.out.println(total2);
+		
+		// Resultado foi um Opcional<Integer>...
+		nums.stream()
+		.filter(n -> n > 5)
+		.reduce(soma)
+		.ifPresent(System.out::println);
+		
 		
 		
 		
