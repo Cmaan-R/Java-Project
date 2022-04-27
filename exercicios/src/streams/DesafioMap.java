@@ -20,6 +20,8 @@ public class DesafioMap {
 		.map(inverter)
 		.map(reverter)
 		.forEach(System.out::println);
+		
+		//Teste Github
 	}
 
 }
