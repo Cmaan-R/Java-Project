@@ -18,13 +18,9 @@ public class Match {
 		Predicate<Aluno> aprovado = a -> a.nota >= 7;
 		
 		System.out.println(alunos.stream().allMatch(aprovado));
-		
-		
-		
-		
-		
-		
-		
+		System.out.println(alunos.stream().anyMatch(aprovado));
+		System.out.println(alunos.stream().noneMatch(aprovado));
+				
 	}
 
 }
