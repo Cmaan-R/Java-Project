@@ -20,8 +20,7 @@ public class Match {
 		
 		System.out.println(alunos.stream().allMatch(aprovado));
 		System.out.println(alunos.stream().anyMatch(aprovado));
-		System.out.println(alunos.stream().noneMatch(reprovado));
-				
+		System.out.println(alunos.stream().noneMatch(reprovado));				
 	}
 
 }
