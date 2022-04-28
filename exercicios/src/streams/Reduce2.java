@@ -26,11 +26,5 @@ public class Reduce2 {
 		.map(getNota)
 		.reduce(somatoria)
 		.ifPresent(System.out::println);
-	
-	
-
-
-
-
 	}
 }
