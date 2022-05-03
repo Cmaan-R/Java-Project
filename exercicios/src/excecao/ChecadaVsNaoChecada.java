@@ -20,7 +20,7 @@ public class ChecadaVsNaoChecada {
 	}
 
 	// Exceção Não Checada ou Não Verificada
-	static void geraErro1 () throws RuntimeException {
+	static void geraErro1 () {
 		throw new RuntimeException("Ocorreu um erro bem legal #01!");
 	}
 	
