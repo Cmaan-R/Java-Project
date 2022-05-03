@@ -11,8 +11,7 @@ public class Causa {
 					System.out.println(e.getCause().getMessage());
 				} 
 			}
-		}
-		
+		}		
 		static void metodoA (Aluno aluno) {
 			try {
 				metodoB(aluno);
@@ -23,10 +22,8 @@ public class Causa {
 		
 		static void metodoB (Aluno aluno) {
 			if (aluno == null) {
-				throw new NullPointerException("Aluno está Nulo");
-				
+				throw new NullPointerException("Aluno está Nulo");		
 			}
-			
 			System.out.println(aluno.nome);
 		}
 }
