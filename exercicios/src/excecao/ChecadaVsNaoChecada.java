@@ -6,11 +6,11 @@ public class ChecadaVsNaoChecada {
 		try {
 			geraErro1();
 		} catch (RuntimeException e) {
-			System.out.println(e.getMessage());;
+			System.out.println(e.getMessage());
 		}
 		
 		try {
-			geraErro2();			
+			geraErro2();	
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
