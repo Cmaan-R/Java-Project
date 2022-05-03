@@ -6,7 +6,7 @@ public class ChecadaVsNaoChecada {
 		try {
 			geraErro1();
 		} catch (RuntimeException e) {
-			System.out.println(e.getMessage());
+			System.out.println(e.getMessage()); 
 		}
 		
 		try {
