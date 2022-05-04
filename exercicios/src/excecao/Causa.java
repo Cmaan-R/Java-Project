@@ -25,7 +25,5 @@ public class Causa {
 				throw new NullPointerException("Aluno está Nulo");		
 			}
 			System.out.println(aluno.nome);
-			
-			//Teste Github
 		}
 }
